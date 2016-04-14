@@ -4,9 +4,9 @@ I have successfully installed Caffe on my Jetson TK1 (L4T 21.4, CUDA 6.5, cuDNNv
 
 http://nbviewer.jupyter.org/github/BVLC/caffe/blob/master/examples/00-classification.ipynb
 
-Then, I tried to use the deep residual network model ResNet-50 (from here: https://github.com/KaimingHe/deep-residual-networks) to classify images with the Jetson. So I adapted the previous python script and loaded the ResNet-50 model instead. Everything seemed to work fine until I ran the network for the classification in line 
+Then, I tried to use the deep residual network model ResNet-50 (from here: https://github.com/KaimingHe/deep-residual-networks) to classify images with the Jetson. So I adapted the previous python script and loaded the ResNet-50 model instead. Everything seemed to work fine until I ran the network for the classification in line 68
 
->> output = net.forward()
+output = net.forward()
 
 At this point ipython shuts downw with the message error "killed". This is the last part of the output
 
