@@ -24,6 +24,7 @@ mean-subtracted values: [('B', 104.0069879317889), ('G', 116.66876761696767), ('
 
 In [7]: output = net.forward()
 Killed
+
 ubuntu@tegra-ubuntu:~/caffe/examples$
 
 I am not sure how to debbug this issue (I googled it and some people suggest that this might be a problem with the compiler). 
